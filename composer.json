@@ -11,7 +11,11 @@
     "require": {
         "php": "^8.2",
         "laravel/framework": "^12.0",
-        "laravel/tinker": "^2.10.1"
+        "laravel/tinker": "^2.10.1",
+        "lomkit/laravel-rest-api": "2.12.0",
+        "handcraftedinthealps/goodby-csv": "1.4.2",
+        "starcitizentools/citizen-skin": "3.3.0",
+        "auth0/auth0-php": "8.13.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
@@ -20,11 +24,7 @@
         "laravel/sail": "^1.41",
         "mockery/mockery": "^1.6",
         "nunomaduro/collision": "^8.6",
-        "phpunit/phpunit": "^11.5.3",
-        "lomkit/laravel-rest-api": "2.12.0",
-        "handcraftedinthealps/goodby-csv": "1.4.2",
-        "starcitizentools/citizen-skin": "3.3.0",
-        "auth0/auth0-php": "8.13.0"
+        "phpunit/phpunit": "^11.5.3"
     },
     "autoload": {
         "psr-4": {
