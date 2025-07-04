@@ -22,7 +22,9 @@
         "nunomaduro/collision": "^8.6",
         "phpunit/phpunit": "^11.5.3",
         "lomkit/laravel-rest-api": "2.12.0",
-        "handcraftedinthealps/goodby-csv": "1.4.2"
+        "handcraftedinthealps/goodby-csv": "1.4.2",
+        "starcitizentools/citizen-skin": "3.3.0",
+        "auth0/auth0-php": "8.13.0"
     },
     "autoload": {
         "psr-4": {
@@ -71,6 +73,7 @@
         "preferred-install": "dist",
         "sort-packages": true,
         "allow-plugins": {
+            "composer/installers": true,
             "pestphp/pest-plugin": true,
             "php-http/discovery": true
         }
