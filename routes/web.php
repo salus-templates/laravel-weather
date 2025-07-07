@@ -35,7 +35,7 @@ Route::get('/weather', static function () {
 });
 
 Route::get('/weather/{city}', static function ($city) {
-    Log::debug('Weather endpoint accessed for city: $city');
+    Log::debug("Weather endpoint accessed for city: $city");
     switch (strtolower($city)) {
         case 'capetown':
             $weather = ['location' => 'Cape Town', 'temperature' => '22°C', 'condition' => 'Sunny'];
